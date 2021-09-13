@@ -12,14 +12,20 @@ body {
 }
 
 .ratings{
-  font-weight: 800;
- color:orangered;
+  font-weight: 600;
+ color:rgb(0, 0, 0);
+ }
+#details-btn{
+ border: 1px solid black;
+  color: black;
+  font-weight: 600;
 }
 
 #addToCart-btn{
-  background-color: green;
+  background-color: rgba(255, 68, 0, 0.774);
   font-weight: bold;
   color: white;
+  border:none;
   }
 
 .title{
@@ -75,10 +81,12 @@ body {
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
- background-color:rgba(128, 128, 128, 0.541);
+ /* background-color:rgba(128, 128, 128, 0.541); */
+ background-color: white;
+ 
 }
 .product{
-  background-color: white;
+  background-color:#20b2ab5d;
   margin: 5px;
   border-radius: 9px;
 }
