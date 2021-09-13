@@ -16,21 +16,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
 </head>
 
-<body >
-  <header> <h1 class="text-center "> Welcome to  <span class="title" >Goon Store</span>  </h1></header>
+<body  class="full-body">
+  <header> <h1 class="text-center my-3  "> Welcome to  <span class="title" >Goon Store</span>  </h1></header>
 <main class="main">
-  <!-- <div>
-    <div class="search-field ">
-      <div class="search-box ">
-        <input id="input-field" class="search-field" type="text"  placeholder="search your product">
-        <button type="button" class="btn btn-info search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
-          Search
-        </button>
-      </div>
-     </div>
-  </div> -->
-  <section class="container mb-5">
+<section class="container mb-5">
     <!-- Input Box -->
     <div class="d-flex main-search-bar">
       <input
@@ -39,9 +28,10 @@
         placeholder="Search your product"
         id="searchInput"
       />
-      <button class="btn btn-primary " id="search-btn">Search</button>
+      <button class="btn btn-success " id="search-btn">Search</button>
     </div>
   </section>
+  <!------------ cart section ----------->
    <div class="row">
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
@@ -93,7 +83,7 @@
             </tbody>
           </table>
           <div class="parces text-center">
-            <button class="btn btn-primary text-center">Buy Now</button>
+            <button class="btn btn-success text-center">Buy Now</button>
           </div>
         </div>
       </div>
